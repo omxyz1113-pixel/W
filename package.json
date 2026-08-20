@@ -1,0 +1,6 @@
+{
+  "name": "gaming-forge",
+  "version": "1.0.0",
+  "description": "The Gaming Forge - 15 fully working browser games",
+  "scripts": { "dev": "npx serve ." }
+}
