@@ -1,6 +1,1 @@
-{
-  "name": "gaming-forge",
-  "version": "1.0.0",
-  "description": "The Gaming Forge - 15 fully working browser games",
-  "scripts": { "dev": "npx serve ." }
-}
+{"name":"the-gaming-forge-3d","version":"3.0.0","description":"3D WebGL games only"}

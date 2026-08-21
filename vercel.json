@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "gaming-forge",
+  "name": "the-gaming-forge-3d",
   "builds": [{ "src": "index.html", "use": "@vercel/static" }],
   "routes": [{ "src": "/(.*)", "dest": "/index.html" }],
   "headers": [
@@ -8,7 +8,7 @@
       "source": "/(.*)",
       "headers": [
         { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-XSS-Protection", "value": "1; mode=block" }
+        { "key": "Cross-Origin-Embedder-Policy", "value": "unsafe-none" }
       ]
     }
   ]
